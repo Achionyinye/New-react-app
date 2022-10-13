@@ -1,5 +1,6 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
+import Login from './Pages/Login';
 import LandingPage from './Pages/LandingPage';
 import JobListings from './Pages/JobListings';
 import PageTwo from './Pages/PageTwo';
@@ -16,7 +17,8 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/landingPage" element={<LandingPage />} />
         <Route path="/jobListings" element={<JobListings />} />
         <Route path="/pageTwo" element={<PageTwo />} />
         <Route path="/pageFour" element={<PageFour />} />
