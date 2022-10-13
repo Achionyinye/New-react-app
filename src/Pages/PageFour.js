@@ -12,7 +12,7 @@ function PageFour() {
                 <div className="main-container" style={{ backgroundColor: "rgb(243, 240, 240);" }}>
                     <div className="row">
                         <div className="col-lg-5">
-                            <div id="left-container" style={{ margin: " 5% 5% 5% 5%" }}>
+                            <div id="left-container" style={{ margin: " 8% 5% 5% 15%" }}>
                                 <h2>Senior Software Developer</h2>
                                 <p>Katampe Abuja</p>
                             </div>
@@ -23,6 +23,10 @@ function PageFour() {
                                     <h4><strong>Software developer</strong></h4>
                                     <p>LurisByteRM</p><br />
                                     <p><i className="fa fa-clock"></i> Full-time</p>
+
+                                    <button style={{backgroundColor: "rgb(15, 15, 15)", color: "white", margin: "10px 0px 20px 0px", padding: "5px 20px 5px 20px", borderRadius: "7px"}}>Apply Now</button>
+
+                                    
                                 </div>
                                 <div className="m-5">
                                     <h5><strong>Job Description</strong></h5>
