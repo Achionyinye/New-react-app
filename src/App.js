@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from "react-router-dom";
+import LandingPage from './Pages/LandingPage';
+import JobListings from './Pages/JobListings';
+import PageTwo from './Pages/PageTwo';
+import PageFour from './Pages/PageFour';
+import PageFive from './Pages/PageFive';
+import PageSix from './Pages/PageSix';
+import PageSeven from './Pages/PageSeven';
+import PageEight from './Pages/PageEight';
+import PageNine from './Pages/PageNine';
+import PageTen from './Pages/PageTen';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/jobListings" element={<JobListings />} />
+        <Route path="/pageTwo" element={<PageTwo />} />
+        <Route path="/pageFour" element={<PageFour />} />
+        <Route path="/pageFive" element={<PageFive />} />
+        <Route path="/pageSix" element={<PageSix />} />
+        <Route path="/pageSeven" element={<PageSeven />} />
+        <Route path="/pageEight" element={<PageEight />} />
+        <Route path="/pageNine" element={<PageNine />} />
+        <Route path="/pageTen" element={<PageTen />} />
+      </Routes>
     </div>
   );
 }
