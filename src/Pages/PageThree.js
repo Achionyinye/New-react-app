@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../Component/navbar'
 import Footer from '../Component/footer'
 
-function PageTwo() {
+function PageThree() {
     return (
         <>
             <Navbar />
@@ -13,7 +13,7 @@ function PageTwo() {
                     <div className="form-row">
                         <div className="form-group col-md-4">
                             <label style={{ fontSize: "14px" }}>Job Title</label><br />
-                            <input style={{ fontSize: "14px" }} type="text" placeholder="Enter Job Title" className="form-control" /><br />
+                            <input style={{ fontSize: "14px" }}type="text" placeholder="Enter Job Title" className="form-control" /><br />
                         </div>
 
                         <div className="form-group col-md-4">
@@ -30,14 +30,14 @@ function PageTwo() {
                     <div className='form-row'>
                         <div className="form-group col-md-4">
                             <label style={{ fontSize: "14px" }}>Employment Type</label><br />
-                            <select style={{ fontSize: "14px" }} className="option form-control">
+                            <select style={{ fontSize: "14px" }}className="option form-control">
                                 <option >Select Employment Type</option>
                                 <option defaultValue={"full-time"}>Full-time</option>
                                 <option defaultValue={"part-time"}>Part-time</option>
                                 <option defaultValue={"contract"}>Contract</option>
                             </select>
                         </div>
-                        
+
                         <div className="form-group col-md-4">
                             <label style={{ fontSize: "14px", fontSize: "14px" }}>Date Posted</label><br />
                             <input type="date" className="form-control" /><br />
@@ -54,7 +54,7 @@ function PageTwo() {
                 <div className="row">
                     <div className="col-lg-5">
                         <div style={{ margin: "0% 0% 5% 20%" }}>
-                            <h5><strong>Recommended for you</strong></h5>
+                            <h5><strong>Software Developer</strong></h5>
                             <p>Here are the newest Job listing in your area</p>
                         </div>
                     </div>
@@ -62,40 +62,40 @@ function PageTwo() {
                         <p style={{
                             position: "absolute", margin: "2rem 0px 0px 34rem", backgroundColor: "rgb(214, 213, 213)",
                             padding: "1px 15px 1px 15px", borderRadius: "20px", fontSize: "13px"
-                        }}><strong>Lagos</strong></p>
+                        }}><strong>Abuja</strong></p>
                         <div
                             style={{ border: "2px solid rgb(214, 213, 213)", padding: "15px 25px 15px 25px", margin: "15px 200px 15px 100px", borderRadius: "5px" }}>
-                            <h6><strong>Business Analyst</strong></h6>
+                            <h6><strong>Senior Software Developer</strong></h6>
                             <p>We are looking for an entry-level business analyst to join our team</p>
                             <p><i className="fa fa-clock"></i> Full-time</p>
                         </div>
                         <p style={{
                             position: "absolute", margin: "2rem 0px 0px 34rem", backgroundColor: "rgb(214, 213, 213)",
                             padding: "1px 15px 1px 15px", borderRadius: "20px", fontSize: "13px"
-                        }}><strong>Lagos</strong></p>
+                        }}><strong>Gombe</strong></p>
                         <div
                             style={{ border: "2px solid rgb(214, 213, 213)", padding: "15px 25px 15px 25px", margin: "30px 200px 30px 100px", borderRadius: "5px" }}>
-                            <h6><strong>Quality Assurance Analyst</strong></h6>
+                            <h6><strong>Junior Software Developer</strong></h6>
                             <p>We are looking for an entry-level quality assurance to join our team</p>
                             <p> <i className="fa fa-clock"></i> Part-time</p>
                         </div>
                         <p style={{
                             position: "absolute", margin: "1rem 0px 0px 34rem", backgroundColor: "rgb(214, 213, 213)",
                             padding: "1px 15px 1px 15px", borderRadius: "20px", fontSize: "13px"
-                        }}><strong>Lagos</strong></p>
+                        }}><strong>Calabar</strong></p>
                         <div
                             style={{ border: "2px solid rgb(214, 213, 213)", padding: "15px 25px 15px 25px", margin: "15px 200px 15px 100px", borderRadius: "5px" }}>
-                            <h6><strong>Business Analyst</strong></h6>
+                            <h6><strong>Full-Stack Software Developer</strong></h6>
                             <p>We are looking for an entry-level business analyst to join our team</p>
                             <p><i className="fa fa-clock"></i> Full-time</p>
                         </div>
                         <p style={{
                             position: "absolute", margin: "2rem 0px 0px 34rem", backgroundColor: "rgb(214, 213, 213)",
                             padding: "1px 15px 1px 15px", borderRadius: "20px", fontSize: "13px"
-                        }}><strong>Lagos</strong></p>
+                        }}><strong>Kaduna</strong></p>
                         <div
                             style={{ border: "2px solid rgb(214, 213, 213)", padding: "15px 25px 15px 25px", margin: "30px 200px 30px 100px", borderRadius: "5px" }}>
-                            <h6><strong>Quality Assurance Analyst</strong></h6>
+                            <h6><strong>Java Software Developer</strong></h6>
                             <p>We are looking for an entry-level quality assurance to join our team</p>
                             <p> <i className="fa fa-clock"></i> Part-time</p>
                         </div>
@@ -110,4 +110,4 @@ function PageTwo() {
     )
 }
 
-export default PageTwo
+export default PageThree

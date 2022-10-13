@@ -4,6 +4,7 @@ import Login from './Pages/Login';
 import LandingPage from './Pages/LandingPage';
 import JobListings from './Pages/JobListings';
 import PageTwo from './Pages/PageTwo';
+import PageThree from './Pages/PageThree';
 import PageFour from './Pages/PageFour';
 import PageFive from './Pages/PageFive';
 import PageSix from './Pages/PageSix';
@@ -21,6 +22,7 @@ function App() {
         <Route path="/landingPage" element={<LandingPage />} />
         <Route path="/jobListings" element={<JobListings />} />
         <Route path="/pageTwo" element={<PageTwo />} />
+        <Route path="/pageThree" element={<PageThree />} />
         <Route path="/pageFour" element={<PageFour />} />
         <Route path="/pageFive" element={<PageFive />} />
         <Route path="/pageSix" element={<PageSix />} />
